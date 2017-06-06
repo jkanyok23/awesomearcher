@@ -16,6 +16,7 @@ body {
   margin:0;
 }
 
+
 @font-face {
     font-family: 'baveuseregular';
     src: url('../fonts/baveuse-webfont.woff2') format('woff2'),
@@ -25,17 +26,12 @@ body {
 
 }
 
-
-
-
 /* allows the elements on screen to be centered browser */
 .wrapper {
   margin:0 auto;
   width: 100%;
   max-width:1000px;
 }
-
-
 
 #intro {
   float: left; /* creates the stacking order, allows elements to have their own width / lineup */
