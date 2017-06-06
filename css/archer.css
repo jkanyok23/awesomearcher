@@ -11,7 +11,7 @@ h2 {
 }
 
 body {
-  background-color: white;
+  background-color:	#01B049;
   padding:0;
   margin:0;
 }
@@ -67,6 +67,7 @@ body {
   float: left;
   width: 100%;
   padding:60px 0;
+  font-family: arial; 
 }
 
 
@@ -77,4 +78,5 @@ body {
   float: left;
   width:100%;
   padding:60px 0;
+  font-family: arial;
 }
