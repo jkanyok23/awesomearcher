@@ -50,7 +50,7 @@ body {
 #archerInfo {
   float: left;
   width: 100%;
-  background:#FFF;
+  background:	#01B049;
   padding:60px 0 60px 0;
 }
   #archerInfo p {
@@ -67,7 +67,8 @@ body {
   float: left;
   width: 100%;
   padding:60px 0;
-  font-family: arial; 
+  font-family: arial;
+  font-size: 18;
 }
 
 
@@ -79,4 +80,5 @@ body {
   width:100%;
   padding:60px 0;
   font-family: arial;
+  font-size: 18;
 }
