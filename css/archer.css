@@ -1,0 +1,84 @@
+/* Universal Styles */
+
+h1 {
+  font-family: 'baveuseregular', sans-serif;
+  font-size:  3em;
+}
+
+h2 {
+  font-family: 'baveuseregular', sans-serif;
+  font-size: 2.5em;
+}
+
+body {
+  background-color: white;
+  padding:0;
+  margin:0;
+}
+
+@font-face {
+    font-family: 'baveuseregular';
+    src: url('../fonts/baveuse-webfont.woff2') format('woff2'),
+         url('../fonts/baveuse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+/* allows the elements on screen to be centered browser */
+.wrapper {
+  margin:0 auto;
+  width: 100%;
+  max-width:1000px;
+}
+
+
+
+#intro {
+  float: left; /* creates the stacking order, allows elements to have their own width / lineup */
+  width: 100%;
+  background-image: url("../images/archerBG.jpg");
+  background-size:cover;
+  background-position: top center;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+
+
+
+
+#archerInfo {
+  float: left;
+  width: 100%;
+  background:#FFF;
+  padding:60px 0 60px 0;
+}
+  #archerInfo p {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: arial;
+  }
+
+
+
+
+#awesome {
+  background: #fff;
+  float: left;
+  width: 100%;
+  padding:60px 0;
+}
+
+
+
+
+#contact {
+  background: #6acee8;
+  float: left;
+  width:100%;
+  padding:60px 0;
+}
