@@ -43,24 +43,15 @@ body {
   text-align: center;
 }
 
-
-
-
-
 #archerInfo {
   float: left;
   width: 100%;
   background:	white;
-  padding:60px 0 60px 0;
-}
-  #archerInfo p {
-    font-size: 18px;
-    line-height: 24px;
-    font-family: arial;
+  padding:60px 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: arial;
   }
-
-
-
 
 #awesome {
   background: #B51881;
@@ -70,9 +61,6 @@ body {
   font-family: arial;
   font-size: 18;
 }
-
-
-
 
 #contact {
   background: #6acee8;
